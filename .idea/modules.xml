@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Base.iml" filepath="$PROJECT_DIR$/Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Configuration/Configuration.iml" filepath="$PROJECT_DIR$/Configuration/Configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flights/Flights.iml" filepath="$PROJECT_DIR$/Flights/Flights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Root/Root.iml" filepath="$PROJECT_DIR$/Root/Root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransportBags/TransportBags.iml" filepath="$PROJECT_DIR$/TransportBags/TransportBags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserManagement/UserManagement.iml" filepath="$PROJECT_DIR$/UserManagement/UserManagement.iml" />
+    </modules>
+  </component>
+</project>

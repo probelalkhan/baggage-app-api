@@ -1,0 +1,10 @@
+server:
+#port: 8085
+# url: jdbc:oracle:thin:@IN101YPN:1530/mopa
+port: 8085
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: bhaq2010
+

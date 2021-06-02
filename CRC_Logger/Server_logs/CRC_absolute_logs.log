@@ -1,0 +1,3 @@
+[32m2021-05-31 21:54:26,232 :: http-nio-8085-exec-1        :: DEBUG :: {UserController           :                  getUser():  34} :: Get user details request received
+[m[32m2021-05-31 21:58:12,719 :: http-nio-8085-exec-9        :: DEBUG :: {UserController           :                  getUser():  34} :: Get user details request received
+[m
