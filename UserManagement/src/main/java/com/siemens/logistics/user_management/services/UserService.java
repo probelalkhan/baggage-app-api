@@ -106,8 +106,9 @@ public class UserService {
         return userModel;
     }
 
-    public UserTable addUser(AddUserRequest request){
+    public AddUserRequest addUser(AddUserRequest request){
         UserTable table = convertUserRequestToUser(request);
-        return userDao.save(table);
+        userDao.save(table);
+        return request;
     }
 }

@@ -4,7 +4,7 @@ server:
 port: 8085
 spring:
   datasource:
-    url: jdbc:oracle:thin:@IN101YPN:1530/mopa
-    username: bhs
-    password: bhs-1234
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: bhaq2010
 

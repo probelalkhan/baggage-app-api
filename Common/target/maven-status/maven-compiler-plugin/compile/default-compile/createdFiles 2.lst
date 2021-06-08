@@ -1,6 +1,0 @@
-com/siemens/logistics/common/models/BaseResponse.class
-com/siemens/logistics/common/utils/DateTimeUtils.class
-com/siemens/logistics/common/utils/ErrorJsonParser.class
-com/siemens/logistics/common/exception/GenericException.class
-com/siemens/logistics/common/models/ErrorResponse$SubError.class
-com/siemens/logistics/common/models/ErrorResponse.class

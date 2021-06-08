@@ -16,6 +16,7 @@ public class UserTable implements Serializable {
     @Id
     @Column(name = "USER_ID")
     @GeneratedValue(strategy=GenerationType.AUTO)
+    @SequenceGenerator(name = "SEQ", sequenceName = "USER_SEQ")
     private long id;
 
     @Column(name = "USER_NAME")

@@ -39,7 +39,7 @@ public class GatewayController {
     }
 
     @PostMapping("/adduser")
-    public UserTable addUser(AddUserRequest request) {
+    public AddUserRequest addUser(AddUserRequest request) {
         return userService.addUser(request);
     }
 

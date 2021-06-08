@@ -1,3 +1,5 @@
-[32m2021-05-31 21:54:26,232 :: http-nio-8085-exec-1        :: DEBUG :: {UserController           :                  getUser():  34} :: Get user details request received
-[m[32m2021-05-31 21:58:12,719 :: http-nio-8085-exec-9        :: DEBUG :: {UserController           :                  getUser():  34} :: Get user details request received
+[30m2021-06-08 18:04:27,972 :: main                        :: INFO  :: {MainClass                :              logStarting():  55} :: Starting MainClass on Belals-MacBook-Pro-2.local with PID 89614 (/Users/belal/Desktop/crc_project_user_mt_module/crc_backend/Root/target/classes started by belal in /Users/belal/Desktop/crc_project_user_mt_module/crc_backend)
+[m[32m2021-06-08 18:04:27,982 :: main                        :: DEBUG :: {MainClass                :              logStarting():  56} :: Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[m[30m2021-06-08 18:04:27,983 :: main                        :: INFO  :: {MainClass                :    logStartupProfileInfo(): 651} :: No active profile set, falling back to default profiles: default
+[m[30m2021-06-08 18:04:34,002 :: main                        :: INFO  :: {MainClass                :               logStarted():  61} :: Started MainClass in 6.487 seconds (JVM running for 8.693)
 [m
