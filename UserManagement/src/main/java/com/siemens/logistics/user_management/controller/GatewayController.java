@@ -3,6 +3,7 @@ package com.siemens.logistics.user_management.controller;
 import com.siemens.logistics.user_management.model.api_models.user.AddUserRequest;
 import com.siemens.logistics.user_management.model.api_models.user.GetUserResponse;
 import com.siemens.logistics.user_management.model.api_models.user.UserModel;
+import com.siemens.logistics.user_management.model.table_models.user.RoleTable;
 import com.siemens.logistics.user_management.model.table_models.user.UserTable;
 import com.siemens.logistics.user_management.services.UserService;
 import org.apache.logging.log4j.LogManager;
@@ -39,8 +40,13 @@ public class GatewayController {
     }
 
     @PostMapping("/adduser")
-    public AddUserRequest addUser(AddUserRequest request) {
+    public AddUserRequest addUser(@RequestBody AddUserRequest request) {
         return userService.addUser(request);
+    }
+
+    @PostMapping("/addrole")
+    public RoleTable addRole(@RequestBody RoleTable request) {
+        return userService.addRole(request);
     }
 
     @GetMapping("/users")

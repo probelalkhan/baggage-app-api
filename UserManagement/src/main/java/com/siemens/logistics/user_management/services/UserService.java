@@ -111,4 +111,8 @@ public class UserService {
         userDao.save(table);
         return request;
     }
+
+    public RoleTable addRole(RoleTable request) {
+        return roleDao.save(request);
+    }
 }

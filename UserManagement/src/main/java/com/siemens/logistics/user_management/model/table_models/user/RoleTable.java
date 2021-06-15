@@ -13,6 +13,8 @@ import java.util.Date;
 public class RoleTable {
     @Id
     @Column(name = "ROLE_ID")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ")
+    @SequenceGenerator(name = "SEQ", sequenceName = "ROLE_SEQ")
     private Long id;
 
     @Column(name = "ROLE_NAME")
