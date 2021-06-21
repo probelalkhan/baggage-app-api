@@ -36,6 +36,13 @@ public class UserController {
     }
 
 
+    @GetMapping("/getHello2")
+    public String getHello() {
+        logger.info("/getHello request received");
+        return "Hello";
+    }
+
+
     /**
      * This API is only for demonstration (Remove/update  this request once dev starts)
      *

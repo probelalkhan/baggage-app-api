@@ -53,4 +53,6 @@ public class GatewayController {
     public List<UserTable> getUsers() {
         return userService.getAllUsers();
     }
+
+
 }
