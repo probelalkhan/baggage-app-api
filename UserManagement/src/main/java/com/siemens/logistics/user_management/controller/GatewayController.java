@@ -1,11 +1,13 @@
 package com.siemens.logistics.user_management.controller;
 
-import com.siemens.logistics.user_management.model.api_models.user.AddUserRequest;
 import com.siemens.logistics.user_management.model.api_models.user.GetUserResponse;
 import com.siemens.logistics.user_management.model.api_models.user.UserModel;
-import com.siemens.logistics.user_management.model.table_models.user.RoleTable;
 import com.siemens.logistics.user_management.model.table_models.user.UserTable;
+import com.siemens.logistics.user_management.model.v2.Group;
+import com.siemens.logistics.user_management.model.v2.Role;
+import com.siemens.logistics.user_management.model.v2.User;
 import com.siemens.logistics.user_management.services.UserService;
+import com.siemens.logistics.user_management.services.v2.NewUserManagementService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +27,8 @@ public class GatewayController {
     @Autowired
     UserService userService;
 
+    @Autowired
+    NewUserManagementService newUserManagementService;
     /**
      * This API return user details. This API-revels the password of the user in hashed form, hence it is hidden from
      * end users
@@ -40,13 +44,18 @@ public class GatewayController {
     }
 
     @PostMapping("/adduser")
-    public AddUserRequest addUser(@RequestBody AddUserRequest request) {
-        return userService.addUser(request);
+    public User addUser(@RequestBody User request) {
+        return newUserManagementService.addUser(request);
+    }
+
+    @PostMapping("/addgroup")
+    public Group addGroup(@RequestBody Group request) {
+        return newUserManagementService.addGroup(request);
     }
 
     @PostMapping("/addrole")
-    public RoleTable addRole(@RequestBody RoleTable request) {
-        return userService.addRole(request);
+    public Role addRole(@RequestBody Role request) {
+        return newUserManagementService.addRole(request);
     }
 
     @GetMapping("/users")
