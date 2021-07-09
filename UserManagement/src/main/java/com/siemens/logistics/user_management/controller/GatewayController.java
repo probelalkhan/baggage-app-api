@@ -45,6 +45,7 @@ public class GatewayController {
 
     @PostMapping("/adduser")
     public User addUser(@RequestBody User request) {
+        logger.debug("Add user details request received");
         return newUserManagementService.addUser(request);
     }
 
@@ -61,6 +62,11 @@ public class GatewayController {
     @GetMapping("/users")
     public List<UserTable> getUsers() {
         return userService.getAllUsers();
+    }
+
+    @GetMapping("/hello")
+    public String test(){
+        return "<h1>Working</h1>";
     }
 
 
