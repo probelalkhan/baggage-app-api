@@ -29,6 +29,7 @@ public class GatewayController {
 
     @Autowired
     NewUserManagementService newUserManagementService;
+
     /**
      * This API return user details. This API-revels the password of the user in hashed form, hence it is hidden from
      * end users
@@ -59,7 +60,12 @@ public class GatewayController {
     }
 
     @GetMapping("/users")
-    public List<UserTable> getUsers() {
-        return userService.getAllUsers();
+    public List<User> getUsers() {
+        return newUserManagementService.getAllUsers();
+    }
+
+    @GetMapping("/hello")
+    public String test() {
+        return "<h1>Working</h1>";
     }
 }
