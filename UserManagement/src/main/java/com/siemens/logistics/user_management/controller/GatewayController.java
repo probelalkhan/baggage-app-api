@@ -40,7 +40,7 @@ public class GatewayController {
     @GetMapping("/getUser/{username}")
     public GetUserResponse getUser(@PathVariable("username") String username) {
         logger.debug("Get user details request received");
-        UserModel user = userService.getUser(username);
+        User user = newUserManagementService.getUser(username);
         return new GetUserResponse(true, 200, 0, "Success", user);
     }
 

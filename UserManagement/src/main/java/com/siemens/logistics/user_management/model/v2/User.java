@@ -19,7 +19,7 @@ public class User {
     private String name;
     private String description;
     private String department;
-    private long role_id;
+    private Long role_id;
     private String password;
     private Date password_expires_on;
     private boolean locked;
