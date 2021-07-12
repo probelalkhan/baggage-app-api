@@ -3,6 +3,7 @@ package com.siemens.logistics.user_management.dal.daos;
 import com.siemens.logistics.user_management.model.table_models.user.UserTable;
 import com.siemens.logistics.user_management.model.v2.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -10,5 +11,6 @@ import java.util.List;
 @Repository
 public interface NewUsersDao extends JpaRepository<User, Long> {
 
-    List<User> findByUserName(String username);
+    @Query("SELECT * FROM Users u WHERE u.name = ?1")
+    List<User> findByUserName(String name);
 }
