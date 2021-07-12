@@ -11,6 +11,5 @@ import java.util.List;
 @Repository
 public interface NewUsersDao extends JpaRepository<User, Long> {
 
-    @Query("SELECT * FROM Users u WHERE u.name = ?1")
-    List<User> findByUserName(String name);
+    List<User> findByName(String name);
 }

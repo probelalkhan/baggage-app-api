@@ -1,6 +1,13 @@
-2021-07-09 14:54:01,511 :: main                        :: INFO  :: {MainClass                :              logStarting():  55} :: Starting MainClass on IN102FNG with PID 21288 (C:\workspace\crc_user_management\baggage-app-api\Root\target\classes started by chauabhi in C:\workspace\crc_user_management\baggage-app-api)
-2021-07-09 14:54:01,536 :: main                        :: DEBUG :: {MainClass                :              logStarting():  56} :: Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
-2021-07-09 14:54:01,538 :: main                        :: INFO  :: {MainClass                :    logStartupProfileInfo(): 651} :: No active profile set, falling back to default profiles: default
-2021-07-09 14:54:31,131 :: main                        :: INFO  :: {MainClass                :               logStarted():  61} :: Started MainClass in 30.806 seconds (JVM running for 34.373)
-2021-07-09 15:15:16,518 :: http-nio-8085-exec-10       :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
-2021-07-09 15:15:18,508 :: http-nio-8085-exec-1        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:03:34,494 :: main                        :: INFO  :: {MainClass                :              logStarting():  55} :: Starting MainClass on IN102FNG with PID 7000 (C:\workspace\crc_user_management\baggage-app-api\Root\target\classes started by chauabhi in C:\workspace\crc_user_management\baggage-app-api)
+2021-07-12 15:03:34,514 :: main                        :: DEBUG :: {MainClass                :              logStarting():  56} :: Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2021-07-12 15:03:34,517 :: main                        :: INFO  :: {MainClass                :    logStartupProfileInfo(): 651} :: No active profile set, falling back to default profiles: default
+2021-07-12 15:04:00,925 :: main                        :: INFO  :: {MainClass                :               logStarted():  61} :: Started MainClass in 27.39 seconds (JVM running for 30.175)
+2021-07-12 15:04:10,606 :: http-nio-8085-exec-1        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:04:12,117 :: http-nio-8085-exec-2        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:05:31,165 :: http-nio-8085-exec-4        :: DEBUG :: {UserController           :                  addUser():  49} :: Add user details request received
+2021-07-12 15:06:26,684 :: http-nio-8085-exec-5        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:06:27,759 :: http-nio-8085-exec-6        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:09:42,816 :: http-nio-8085-exec-8        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:10:15,793 :: http-nio-8085-exec-9        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:17:46,363 :: http-nio-8085-exec-1        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received
+2021-07-12 15:17:47,664 :: http-nio-8085-exec-2        :: DEBUG :: {UserController           :                  getUser():  42} :: Get user details request received

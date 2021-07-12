@@ -61,7 +61,7 @@ public class NewUserManagementService {
     }
 
     public User getUser(String username) {
-        List<User> userList = newUsersDao.findByUserName(username);
+        List<User> userList = newUsersDao.findByName(username);
 
         if(userList.isEmpty()){
             logger.debug("No user found for given username");
@@ -72,13 +72,6 @@ public class NewUserManagementService {
 
         //Now getting all the user roles
         List<UserRoleMappingTable> mappingList = userRoleMappingDao.findByUserId(user.getId());
-
-        if(mappingList.isEmpty()){
-            logger.debug("No user role mapping found");
-            throw new GenericException(HttpStatus.BAD_REQUEST, 400, 4002, null);
-        }
-
-
         return user;
     }
 }
