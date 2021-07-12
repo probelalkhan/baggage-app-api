@@ -70,10 +70,4 @@ public class GatewayController {
         return "<h1>Working</h1>";
     }
 
-    @GetMapping("/hello")
-    public String test(){
-        return "<h1>Working</h1>";
-    }
-
-
 }
