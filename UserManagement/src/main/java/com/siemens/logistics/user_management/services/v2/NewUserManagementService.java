@@ -60,6 +60,10 @@ public class NewUserManagementService {
         return newUsersDao.findAll();
     }
 
+    public List<Group> getAllGroups(){
+        return groupsDao.findAll();
+    }
+
     public User getUser(String username) {
         List<User> userList = newUsersDao.findByUserName(username);
 
@@ -77,7 +81,6 @@ public class NewUserManagementService {
             logger.debug("No user role mapping found");
             throw new GenericException(HttpStatus.BAD_REQUEST, 400, 4002, null);
         }
-
 
         return user;
     }
