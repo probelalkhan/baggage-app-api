@@ -4,6 +4,7 @@ import com.siemens.logistics.user_management.model.table_models.user.UserTable;
 import com.siemens.logistics.user_management.model.v2.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

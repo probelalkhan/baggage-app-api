@@ -60,6 +60,10 @@ public class NewUserManagementService {
         return newUsersDao.findAll();
     }
 
+    public List<Group> getAllGroups(){
+        return groupsDao.findAll();
+    }
+
     public User getUser(String username) {
         List<User> userList = newUsersDao.findByName(username);
 
