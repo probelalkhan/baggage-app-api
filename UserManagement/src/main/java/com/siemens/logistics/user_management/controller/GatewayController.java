@@ -50,6 +50,12 @@ public class GatewayController {
         return newUserManagementService.addUser(request);
     }
 
+    @PostMapping("/updatepassword")
+    public User updatePassword(@RequestBody User request) {
+        logger.debug("Update password request received");
+        return newUserManagementService.updatePassword(String.valueOf(request.getId()), request.getPassword());
+    }
+
     @PostMapping("/addgroup")
     public Group addGroup(@RequestBody Group request) {
         return newUserManagementService.addGroup(request);

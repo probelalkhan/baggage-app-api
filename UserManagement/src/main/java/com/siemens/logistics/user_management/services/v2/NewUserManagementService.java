@@ -48,6 +48,10 @@ public class NewUserManagementService {
         return newUsersDao.save(request);
     }
 
+    public User updatePassword(String id, String newPassword){
+        return newUsersDao.updatePassword(id, newPassword);
+    }
+
     public Group addGroup(Group request) {
         return groupsDao.save(request);
     }
