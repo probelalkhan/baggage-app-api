@@ -1,5 +1,6 @@
 package com.siemens.logistics.user_management.controller;
 
+import com.siemens.logistics.user_management.controller.requests.ChangePasswordRequest;
 import com.siemens.logistics.user_management.model.api_models.user.GetUserResponse;
 import com.siemens.logistics.user_management.model.api_models.user.UserModel;
 import com.siemens.logistics.user_management.model.table_models.user.UserTable;
@@ -51,9 +52,9 @@ public class GatewayController {
     }
 
     @PostMapping("/updatepassword")
-    public User updatePassword(@RequestBody User request) {
+    public User updatePassword(@RequestBody ChangePasswordRequest request) {
         logger.debug("Update password request received");
-        return newUserManagementService.updatePassword(String.valueOf(request.getId()), request.getPassword());
+        return newUserManagementService.updatePassword(String.valueOf(request.getId()), request.getNewPassword());
     }
 
     @PostMapping("/addgroup")
