@@ -4,7 +4,8 @@ server:
 port: 8085
 spring:
   datasource:
-    url: jdbc:oracle:thin:@IN101YPN:1530/mopa
+    #url: jdbc:oracle:thin:@IN101YPN:1530/mopa
+    url: jdbc:oracle:thin:@172.18.170.30:1530/dial
     username: bhs
     password: bhs-1234
 
