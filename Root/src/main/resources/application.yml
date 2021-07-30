@@ -1,11 +1,12 @@
 server:
-#port: 8085
-# url: jdbc:oracle:thin:@IN101YPN:1530/mopa
 port: 8085
+# url: jdbc:oracle:thin:@IN101YPN:1530/mopa
+#port: 7004
 spring:
   datasource:
     #url: jdbc:oracle:thin:@IN101YPN:1530/mopa
-    url: jdbc:oracle:thin:@172.18.170.30:1530/dial
+    #url: jdbc:oracle:thin:@172.18.170.30:1530/dial
+    url: jdbc:oracle:thin:@172.18.170.32:1530/mopa
     username: bhs
     password: bhs-1234
 

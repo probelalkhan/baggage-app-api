@@ -23,6 +23,7 @@ C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\co
 C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\com\siemens\logistics\user_management\model\api_models\user\UserModel.java
 C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\com\siemens\logistics\user_management\model\table_models\user\UserTable.java
 C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\com\siemens\logistics\user_management\dal\daos\NewUsersDao.java
+C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\com\siemens\logistics\user_management\controller\requests\ChangePasswordRequest.java
 C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\com\siemens\logistics\user_management\dal\daos\GroupsDao.java
 C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\com\siemens\logistics\user_management\model\api_models\user\GetUserResponseData.java
 C:\workspace\crc_user_management\baggage-app-api\UserManagement\src\main\java\com\siemens\logistics\user_management\model\table_models\user\RoleTable.java

@@ -52,7 +52,7 @@ public class GatewayController {
     }
 
     @PostMapping("/updatepassword")
-    public User updatePassword(@RequestBody ChangePasswordRequest request) {
+    public int updatePassword(@RequestBody ChangePasswordRequest request) {
         logger.debug("Update password request received");
         return newUserManagementService.updatePassword(request.getName(), request.getNewPassword());
     }
