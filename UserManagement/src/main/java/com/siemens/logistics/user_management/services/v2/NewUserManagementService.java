@@ -48,7 +48,7 @@ public class NewUserManagementService {
         return newUsersDao.save(request);
     }
 
-    public User updatePassword(String name, String newPassword){
+    public int updatePassword(String name, String newPassword){
         return newUsersDao.updatePassword(name, newPassword);
     }
 

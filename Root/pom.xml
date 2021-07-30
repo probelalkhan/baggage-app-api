@@ -15,24 +15,28 @@
         <dependency>
             <groupId>com.siemens.logistics</groupId>
             <artifactId>UserManagement</artifactId>
+            <type>war</type>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.siemens.logistics</groupId>
             <artifactId>Configuration</artifactId>
+            <type>war</type>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.siemens.logistics</groupId>
             <artifactId>Flights</artifactId>
+            <type>war</type>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.siemens.logistics</groupId>
             <artifactId>TransportBags</artifactId>
+            <type>war</type>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
