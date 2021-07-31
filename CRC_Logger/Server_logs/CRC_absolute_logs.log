@@ -1,6 +1,4 @@
-2021-07-31 19:36:16,020 :: main                        :: INFO  :: {MainClass                :              logStarting():  55} :: Starting MainClass on IN102FNG with PID 20948 (C:\workspace\crc_user_management\baggage-app-api\Root\target\classes started by chauabhi in C:\workspace\crc_user_management\baggage-app-api)
-2021-07-31 19:36:16,034 :: main                        :: DEBUG :: {MainClass                :              logStarting():  56} :: Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
-2021-07-31 19:36:16,036 :: main                        :: INFO  :: {MainClass                :    logStartupProfileInfo(): 651} :: No active profile set, falling back to default profiles: default
-2021-07-31 19:36:29,759 :: main                        :: INFO  :: {MainClass                :               logStarted():  61} :: Started MainClass in 14.268 seconds (JVM running for 15.582)
-2021-07-31 19:47:38,800 :: http-nio-8085-exec-1        :: DEBUG :: {UserController           :                  getUser():  44} :: Get user details request received
-2021-07-31 19:47:41,178 :: http-nio-8085-exec-2        :: DEBUG :: {UserController           :                  getUser():  44} :: Get user details request received
+[30m2021-07-31 19:39:26,315 :: main                        :: INFO  :: {MainClass                :              logStarting():  55} :: Starting MainClass on Belals-MacBook-Pro.local with PID 5228 (/Users/belalkhan/Desktop/Work/Abhinav/crc_backend/Root/target/classes started by belalkhan in /Users/belalkhan/Desktop/Work/Abhinav/crc_backend)
+[m[32m2021-07-31 19:39:26,326 :: main                        :: DEBUG :: {MainClass                :              logStarting():  56} :: Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[m[30m2021-07-31 19:39:26,328 :: main                        :: INFO  :: {MainClass                :    logStartupProfileInfo(): 651} :: No active profile set, falling back to default profiles: default
+[m
