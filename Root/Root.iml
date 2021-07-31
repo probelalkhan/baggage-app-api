@@ -33,17 +33,19 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="UserManagement" />
-    <orderEntry type="module" module-name="Configuration" />
+    <orderEntry type="module" module-name="Common" />
     <orderEntry type="module" module-name="Flights" />
+    <orderEntry type="module" module-name="UserManagement" />
     <orderEntry type="module" module-name="TransportBags" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.ojdbc:ojdbc8:19.3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.ojdbc:ucp:19.3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.ojdbc:oraclepki:19.3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.ojdbc:osdt_cert:19.3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.ojdbc:osdt_core:19.3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.ojdbc:simplefan:19.3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.ojdbc:ons:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.siemens.logistics:Statistics:war:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="Configuration" />
+    <orderEntry type="library" name="Maven: com.oracle.ojdbc:ojdbc8:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle.ojdbc:ucp:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle.ojdbc:oraclepki:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle.ojdbc:osdt_cert:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle.ojdbc:osdt_core:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle.ojdbc:simplefan:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle.ojdbc:ons:19.3.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.1.RELEASE" level="project" />

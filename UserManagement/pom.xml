@@ -9,18 +9,9 @@
     </parent>
     <packaging>war</packaging>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>UserManagement</artifactId>
     <dependencies>
-
-        <dependency>
-            <groupId>com.siemens.logistics</groupId>
-            <artifactId>Common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
+          <dependency>
             <groupId>com.oracle.ojdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>19.3.0.0</version>
@@ -37,6 +28,12 @@
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
             <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.siemens.logistics</groupId>
+            <artifactId>Common</artifactId>
+            <!--            <type>war</type>-->
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

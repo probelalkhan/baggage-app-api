@@ -1,5 +1,6 @@
 com\siemens\logistics\user_management\model\api_models\user\GetAllUsersResponse.class
 com\siemens\logistics\user_management\controller\requests\ChangePasswordRequest.class
+com\siemens\logistics\user_management\controller\response\DefaultResponse.class
 com\siemens\logistics\user_management\dal\daos\UserGroupDao.class
 com\siemens\logistics\user_management\exception_handler\UserManagementExceptionHandler.class
 com\siemens\logistics\user_management\model\v2\User.class
