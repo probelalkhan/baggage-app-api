@@ -16,6 +16,6 @@ public class Role {
     private long id;
     private String name;
     private boolean active;
-    private Date createdOn;
-    private Date lastUpdated;
+    private String createdOn;
+    private String lastUpdated;
 }
