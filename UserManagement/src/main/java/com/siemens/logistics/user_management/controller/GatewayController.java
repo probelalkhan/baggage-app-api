@@ -84,6 +84,11 @@ public class GatewayController {
         return newUserManagementService.getAllGroups();
     }
 
+    @GetMapping("/roles")
+    public List<Role> getRoles() {
+        return newUserManagementService.getAllRoles();
+    }
+
     @GetMapping("/hello")
     public String test() {
         return "<h1>Working</h1>";

@@ -48,7 +48,7 @@ public class NewUserManagementService {
         return newUsersDao.save(request);
     }
 
-    public int updatePassword(String name, String newPassword){
+    public int updatePassword(String name, String newPassword) {
         return newUsersDao.updatePassword(name, newPassword);
     }
 
@@ -64,14 +64,18 @@ public class NewUserManagementService {
         return newUsersDao.findAll();
     }
 
-    public List<Group> getAllGroups(){
+    public List<Group> getAllGroups() {
         return groupsDao.findAll();
+    }
+
+    public List<Role> getAllRoles() {
+        return newRoleDao.findAll();
     }
 
     public User getUser(String username) {
         List<User> userList = newUsersDao.findByName(username);
 
-        if(userList.isEmpty()){
+        if (userList.isEmpty()) {
             logger.debug("No user found for given username");
             throw new GenericException(HttpStatus.BAD_REQUEST, 400, 4001, null);
         }
