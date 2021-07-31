@@ -20,6 +20,7 @@ public class User {
     private String description;
     private String department;
     private Long role_id;
+    private Long group_id;
     private String password;
     private String password_expires_on;
     private boolean locked;

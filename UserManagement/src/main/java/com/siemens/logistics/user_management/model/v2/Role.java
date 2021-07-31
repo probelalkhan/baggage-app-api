@@ -13,9 +13,9 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ")
     @SequenceGenerator(name = "SEQ", sequenceName = "ROLE_SEQ")
-    private long role_id;
+    private long id;
     private String name;
     private boolean active;
-    private String created_at;
-    private String updated_at;
+    private String createdOn;
+    private String lastUpdated;
 }
