@@ -26,4 +26,7 @@ public class User {
     private boolean locked;
     private String account_expires_on;
 
+    @OneToOne
+    @JoinColumn(name = "role_id")
+    private Role role;
 }
