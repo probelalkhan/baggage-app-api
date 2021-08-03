@@ -18,4 +18,17 @@ public interface NewUsersDao extends JpaRepository<User, Long> {
     @Modifying(clearAutomatically = true)
     @Query(value = "UPDATE USERS SET password = :newPassword WHERE name = :name", nativeQuery = true)
     int updatePassword(@Param("name") String name, @Param("newPassword") String newPassword);
+    @Query(value="select u.id,u.name,u.description,u.department,r.name as role_name, g.name as group_name from users u\n" +
+            "inner join roles r on u.role_id = r.role_id\n" +
+            "inner join groups g on u.group_id= g.id", nativeQuery = true)
+    List<User> fetchUsers();
+
+    public static interface NameOnly {
+
+        String getRoleName();
+
+        String getGroupName();
+
+    }
+
 }

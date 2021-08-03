@@ -25,5 +25,4 @@ public class User {
     private String password_expires_on;
     private boolean locked;
     private String account_expires_on;
-
 }

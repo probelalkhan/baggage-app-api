@@ -5,6 +5,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "roles")
@@ -13,9 +14,9 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ")
     @SequenceGenerator(name = "SEQ", sequenceName = "ROLE_SEQ")
-    private long id;
+    private long role_id;
     private String name;
     private boolean active;
-    private String createdOn;
-    private String lastUpdated;
+    private String created_at;
+    private String updated_at;
 }
