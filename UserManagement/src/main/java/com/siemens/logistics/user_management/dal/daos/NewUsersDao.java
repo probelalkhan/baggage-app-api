@@ -18,4 +18,13 @@ public interface NewUsersDao extends JpaRepository<User, Long> {
     @Modifying(clearAutomatically = true)
     @Query(value = "UPDATE USERS SET password = :newPassword WHERE name = :name", nativeQuery = true)
     int updatePassword(@Param("name") String name, @Param("newPassword") String newPassword);
+
+    @Modifying(clearAutomatically = true)
+    @Query(value = "UPDATE USERS SET first_failed_login = :failedLoginTime WHERE name = :name AND first_failed_login IS NULL", nativeQuery = true)
+    int updateLoginFailed(@Param("name") String name, @Param("failedLoginTime") String failedLoginTime);
+
+
+    @Modifying(clearAutomatically = true)
+    @Query(value = "UPDATE USERS SET failed_login = failed_login + 1 WHERE name = :name", nativeQuery = true)
+    int updateLoginFailedCount(@Param("name") String name);
 }

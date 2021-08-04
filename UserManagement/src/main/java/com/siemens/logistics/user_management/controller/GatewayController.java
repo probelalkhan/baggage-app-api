@@ -64,6 +64,19 @@ public class GatewayController {
         return dr;
     }
 
+    @PostMapping("/updateloginfailed")
+    public DefaultResponse updatePassword(@RequestBody User request) {
+        int result = newUserManagementService.updateFailedLogins(request.getName());
+        String message = "Login Log Not Updated";
+        if (result == 1) {
+            message = "Login Log Updated";
+        }
+        DefaultResponse dr = new DefaultResponse();
+        dr.setMessage(message);
+        return dr;
+    }
+
+
     @PostMapping("/addgroup")
     public Group addGroup(@RequestBody Group request) {
         return newUserManagementService.addGroup(request);
