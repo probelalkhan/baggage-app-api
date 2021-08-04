@@ -19,7 +19,9 @@ public class User {
     private String name;
     private String description;
     private String department;
+    @Column(name="role_id", insertable = false,updatable = false)
     private Long role_id;
+    @Column(name="group_id", insertable = false,updatable = false)
     private Long group_id;
     private String password;
     private String password_expires_on;
@@ -29,4 +31,8 @@ public class User {
     @OneToOne
     @JoinColumn(name = "role_id")
     private Role role;
+
+    @OneToOne
+    @JoinColumn(name = "group_id")
+    private Group group;
 }
