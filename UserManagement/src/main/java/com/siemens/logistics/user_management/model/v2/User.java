@@ -28,7 +28,7 @@ public class User {
     private boolean locked;
     private String account_expires_on;
     private String first_failed_login;
-    private Long failed_login;
+    private Long failed_logins;
 
     @OneToOne
     @JoinColumn(name = "role_id")

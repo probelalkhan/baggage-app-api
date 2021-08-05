@@ -1,6 +1,4 @@
-2021-08-03 17:31:55,469 :: main                        :: INFO  :: {MainClass                :              logStarting():  55} :: Starting MainClass on IN102FNG with PID 23584 (C:\workspace\crc_user_management\baggage-app-api\Root\target\classes started by chauabhi in C:\workspace\crc_user_management\baggage-app-api)
-2021-08-03 17:31:55,501 :: main                        :: DEBUG :: {MainClass                :              logStarting():  56} :: Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
-2021-08-03 17:31:55,508 :: main                        :: INFO  :: {MainClass                :    logStartupProfileInfo(): 651} :: No active profile set, falling back to default profiles: default
-2021-08-03 17:32:22,810 :: main                        :: INFO  :: {MainClass                :               logStarted():  61} :: Started MainClass in 28.353 seconds (JVM running for 31.245)
-2021-08-03 17:32:37,364 :: http-nio-8085-exec-1        :: DEBUG :: {UserController           :                  getUser():  44} :: Get user details request received
-2021-08-03 17:32:40,034 :: http-nio-8085-exec-2        :: DEBUG :: {UserController           :                  getUser():  44} :: Get user details request received
+2021-08-05 22:34:53,235 :: main                        :: INFO  :: {MainClass                :              logStarting():  55} :: Starting MainClass on IN102FNG with PID 28784 (C:\workspace\crc_user_management\baggage-app-api\Root\target\classes started by chauabhi in C:\workspace\crc_user_management\baggage-app-api)
+2021-08-05 22:34:53,268 :: main                        :: DEBUG :: {MainClass                :              logStarting():  56} :: Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2021-08-05 22:34:53,272 :: main                        :: INFO  :: {MainClass                :    logStartupProfileInfo(): 651} :: No active profile set, falling back to default profiles: default
+2021-08-05 22:35:21,072 :: main                        :: INFO  :: {MainClass                :               logStarted():  61} :: Started MainClass in 28.989 seconds (JVM running for 32.108)

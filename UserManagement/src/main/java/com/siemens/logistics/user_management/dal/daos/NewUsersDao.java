@@ -25,6 +25,6 @@ public interface NewUsersDao extends JpaRepository<User, Long> {
 
 
     @Modifying(clearAutomatically = true)
-    @Query(value = "UPDATE USERS SET failed_login = failed_login + 1 WHERE name = :name", nativeQuery = true)
+    @Query(value = "UPDATE USERS SET failed_logins = failed_logins + 1 WHERE name = :name", nativeQuery = true)
     int updateLoginFailedCount(@Param("name") String name);
 }
